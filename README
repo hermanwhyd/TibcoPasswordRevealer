@@ -1,5 +1,5 @@
 #How to install to local repository
-	-> mvn install:install-file -Dfile=C:\tibco\tra\5.8\lib\TIBCrypt.jar -DgroupId=com.tibco.security -DartifactId=TIBCrypt -Dversion=2.16.0.007 -Dpackaging=jar
+	_> mvn install:install-file -Dfile=C:\tibco\tra\5.8\lib\TIBCrypt.jar -DgroupId=com.tibco.security -DartifactId=TIBCrypt -Dversion=2.16.0.007 -Dpackaging=jar
 
 	tips:
 	to know version
@@ -9,3 +9,8 @@
 	
 #How to build execute jar include with depedencies:
     _> mvn clean compile assembly:single
+    
+    
+Screenshot:
+
+![tpr](https://cloud.githubusercontent.com/assets/8445187/25556819/49bc4f84-2d2e-11e7-94f2-35c34d624bbf.JPG)
